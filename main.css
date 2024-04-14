@@ -1,0 +1,51 @@
+body{
+  margin-top: 50px;
+  background-image: url(https://subtlepatterns.com/patterns/old_mathematics.png);
+}
+#title{
+  padding-top: 20px;
+}
+h5{
+  font-weight: bold;
+}
+.centered {
+  margin: 0px auto;
+  text-align: center;
+}
+.chart{
+  background: transparent;
+  width: 900px;
+  height: 600px;
+  box-shadow: 0px 0px 5px #888888;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.axis text {
+  font: 14px sans-serif;
+}
+.dot {
+  stroke: #000;
+}
+
+.tooltip {
+  position: absolute;           
+  text-align: center;           
+  width: 150px;                                  
+  padding: 5px;             
+  font: 12px sans-serif;        
+  background: black;
+  color: #888;
+  border: 0px;      
+  border-radius: 4px;           
+  pointer-events: none;   
+}
+.legend {
+  padding: 5px;
+  font: 10px sans-serif;
+  background: yellow;
+  box-shadow: 2px 2px 1px #888;
+}
